@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Scope;
 //@MyTweet("abc")
 public class Tweet {
 
-    private Long tweetId;
+    private Long tweetId = Long.valueOf(super.hashCode());
     private String txt;
     private User user;
 

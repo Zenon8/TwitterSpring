@@ -7,4 +7,5 @@ public interface TweetRepository {
 
     Iterable<Tweet> allTweets();
 
+    void addTweet(Tweet tweet);
 }
